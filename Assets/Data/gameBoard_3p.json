@@ -1,0 +1,17 @@
+{
+	"gameBoard":
+	[
+		{
+			"coord": "3,0,-3",
+			"tile": "home_1p"
+		},
+		{
+			"coord": "-3,3,0",
+			"tile": "home_2p"
+		},
+		{
+			"coord": "0,-3,3",
+			"tile": "home_3p"
+		}
+	]
+}

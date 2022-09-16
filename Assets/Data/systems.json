@@ -1,0 +1,818 @@
+{
+  "systems":
+  [
+    {
+      [
+        {
+          "name": "empty - correct for zero based array numbering"
+        }
+      ]
+    },
+    {
+      [
+        {
+          "name": "Jord",
+          "trait": "The Federation of Sol",
+          "resources": 4,
+          "influence": 2
+        }
+      ]
+    },
+    {
+      [
+        {
+          "name": "Moll Primus",
+          "trait": "The Mentak Coalition",
+          "resources": 4,
+          "influence": 1
+        }
+      ]
+    },
+    {
+      [
+        {
+          "name": "Darien",
+          "trait": "The Yin Brotherhood",
+          "resources": 4,
+          "influence": 4
+        }
+      ]
+    },
+    {
+      [
+        {
+          "name": "Muaat",
+          "trait": "The Enmbers of Muaat",
+          "resources": 4,
+          "influence": 1
+        }
+      ]
+    },
+    { 
+      [
+        {
+          "name": "Nestphar",
+          "trait": "The Arborec",
+          "resources": 3,
+          "influence": 2
+        }
+      ]
+    },
+    { 
+      [
+        {
+          "name": "[0,0,0]",
+          "trait": "The L1Z1X Mindnet",
+          "resources": 5,
+          "influence": 0
+        }
+      ]
+    },
+    {
+      [
+        {
+          "name": "Winnu",
+          "trait": "The Winnu",
+          "resources": 3,
+          "influence": 4
+        }
+      ]
+    },
+    {
+      [
+        {
+          "name": "Mordai II",
+          "trait": "The Nekro Virus",
+          "resources": 4,
+          "influence": 0
+        }
+      ]
+    },
+    {
+      [
+        {
+          "name": "Maaluuk",
+          "trait": "The Naalu Collective",
+          "resources": 0,
+          "influence": 2
+        },
+        {
+          "name": "Druaa",
+          "trait": "The Naalu Collective",
+          "resources": 3,
+          "influence": 1
+        }
+      ]
+    },
+    {
+      [
+        {
+          "name": "Arc Prime",
+          "trait": "The Barony of Letnev",
+          "resources": 3,
+          "influence": 0
+        },
+        {
+          "name": "Wren Terra",
+          "trait": "The Barony of Letnev",
+          "resources": 2,
+          "influence": 1
+        }
+      ]
+    },
+    {
+      [
+        {
+          "name": "Lisis II",
+          "trait": "The Clan of Saar",
+          "resources": 1,
+          "influence": 0
+        },
+        {
+          "name": "Ragh",
+          "trait": "The Clan of Saar",
+          "resources": 2,
+          "influence": 1
+        }
+      ]
+    },
+    {
+      [
+        {
+          "name": "Nar",
+          "trait": "The Universities of Jol-Nar",
+          "resources": 2,
+          "influence": 3
+        },
+        {
+          "name": "Quinarra",
+          "trait": "The Universities of Jol-Nar",
+          "resources": 1,
+          "influence": 2
+        }
+      ]
+    },
+    {
+      [
+        {
+          "name": "Tren'Lak",
+          "trait": "The Sardakk N'Orr",
+          "resources": 1,
+          "influence": 0
+        },
+        {
+          "name": "Quinarra",
+          "trait": "The Sardakk N'Orr",
+          "resources": 3,
+          "influence": 1
+        }
+      ]
+    },
+    {
+      [
+        {
+          "name": "Archon Ren",
+          "trait": "The Xxcha Kingdom",
+          "resources": 2,
+          "influence": 3
+        },
+        {
+          "name": "Archon Tau",
+          "trait": "The Xxcha Kingdom",
+          "resources": 1,
+          "influence": 1
+        }
+      ]
+    },
+    {
+      [
+        {
+          "name": "Retillion",
+          "trait": "The Yssaril Tribes",
+          "resources": 2,
+          "influence": 3
+        },
+        {
+          "name": "Shalloq",
+          "trait": "The Yssaril Tribes",
+          "resources": 1,
+          "influence": 2
+        }
+      ]
+    },
+    {
+      [
+        {
+          "name": "Arretze",
+          "trait": "The Emirites of Hacan",
+          "resources": 2,
+          "influence": 0
+        },
+        {
+          "name": "Kamdorn",
+          "trait": "The Emirites of Hacan",
+          "resources": 0,
+          "influence": 1
+        },
+        {
+          "name": "Hercant",
+          "trait": "The Emirites of Hacan",
+          "resources": 1,
+          "influence": 1
+        }
+      ]
+    },
+    { 
+      [
+        {
+          "name": "",
+          "trait": "The Ghosts of Creuss"
+        }
+      ]
+    },
+		{
+			[
+				{
+					"name": "Mecatol Rex",
+					"trait": "none",
+					"resources": 1,
+					"influence": 6,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Wellon",
+					"trait": "Industrial",
+					"resources": 1,
+					"influence": 2,
+					"technology": "cybernetic"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Vefut II",
+					"trait": "Hazardous",
+					"resources": 2,
+					"influence": 2,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Thibah",
+					"trait": "Industrial",
+					"resources": 1,
+					"influence": 1,
+					"technology": "propulsion"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Tar'Mann",
+					"trait": "Industrial",
+					"resources": 1,
+					"influence": 1,
+					"technology": "biotic"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Saudor",
+					"trait": "Industrial",
+					"resources": 2,
+					"influence": 2,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Mehar Xull",
+					"trait": "Hazardous",
+					"resources": 1,
+					"influence": 3,
+					"technology": "warfare"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Quann",
+					"trait": "Cultural",
+					"resources": 2,
+					"influence": 1,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Lodor",
+					"trait": "Cultural",
+					"resources": 3,
+					"influence": 1,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Starpoint",
+					"trait": "Hazardous",
+					"resources": 3,
+					"influence": 1,
+					"technology": "none"
+				},
+				{
+					"name": "New Albion",
+					"trait": "Industrial",
+					"resources": 1,
+					"influence": 1,
+					"technology": "biotic"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Tequ'ran",
+					"trait": "Hazardous",
+					"resources": 2,
+					"influence": 0,
+					"technology": "none"
+				},
+				{
+					"name": "Torkan",
+					"trait": "Cultural",
+					"resources": 0,
+					"influence": 3,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Qucen'n",
+					"trait": "Industrial",
+					"resources": 1,
+					"influence": 2,
+					"technology": "none"
+				},
+				{
+					"name": "Rarron",
+					"trait": "Cultural",
+					"resources": 0,
+					"influence": 3,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Zohbat",
+					"trait": "Hazardous",
+					"resources": 3,
+					"influence": 1,
+					"technology": "none"
+				},
+				{
+					"name": "Mellon",
+					"trait": "Cultural",
+					"resources": 0,
+					"influence": 2,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Sakulag",
+					"trait": "Hazardous",
+					"resources": 2,
+					"influence": 1,
+					"technology": "none"
+				},
+				{
+					"name": "Lazar",
+					"trait": "Industrial",
+					"resources": 1,
+					"influence": 0,
+					"technology": "cybernetic"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Xxehan",
+					"trait": "Cultural",
+					"resources": 1,
+					"influence": 1,
+					"technology": "none"
+				},
+				{
+					"name": "Dal Bootha",
+					"trait": "Cultural",
+					"resources": 0,
+					"influence": 2,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Resculon",
+					"trait": "Cultural",
+					"resources": 2,
+					"influence": 0,
+					"technology": "none"
+				},
+				{
+					"name": "Corneeq",
+					"trait": "Cultural",
+					"resources": 1,
+					"influence": 2,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Centauri",
+					"trait": "Cultural",
+					"resources": 1,
+					"influence": 3,
+					"technology": "none"
+				},
+				{
+					"name": "Gral",
+					"trait": "Industrial",
+					"resources": 1,
+					"influence": 1,
+					"technology": "propulsion"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Bereg",
+					"trait": "Hazardous",
+					"resources": 3,
+					"influence": 1,
+					"technology": "none"
+				},
+				{
+					"name": "Lirta IV",
+					"trait": "Hazardous",
+					"resources": 2,
+					"influence": 3,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Arnor",
+					"trait": "Industrial",
+					"resources": 2,
+					"influence": 1,
+					"technology": "none"
+				},
+				{
+					"name": "Lor",
+					"trait": "Industrial",
+					"resources": 1,
+					"influence": 2,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Arinam",
+					"trait": "Industrial",
+					"resources": 1,
+					"influence": 2,
+					"technology": "none"
+				},
+				{
+					"name": "Meer",
+					"trait": "Hazardous",
+					"resources": 0,
+					"influence": 4,
+					"technology": "warfare"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Abyz",
+					"trait": "Hazardous",
+					"resources": 3,
+					"influence": 0,
+					"technology": "none"
+				},
+				{
+					"name": "Fria",
+					"trait": "Hazardous",
+					"resources": 2,
+					"influence": 0,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Archon Vail",
+					"trait": "Hazardous",
+					"resources": 1,
+					"influence": 3,
+					"technology": "propulsion"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Perimeter",
+					"trait": "Industrial",
+					"resources": 2,
+					"influence": 1,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Ang",
+					"trait": "Industrial",
+					"resources": 2,
+					"influence": 0,
+					"technology": "warfare"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Sem-Lore",
+					"trait": "Cultural",
+					"resources": 3,
+					"influence": 2,
+					"technology": "cybernetic"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Vorhal",
+					"trait": "Cultural",
+					"resources": 0,
+					"influence": 2,
+					"technology": "biotic"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Atlas",
+					"trait": "Hazardous",
+					"resources": 3,
+					"influence": 1,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Primor",
+					"trait": "Cultural",
+					"resources": 2,
+					"influence": 1,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Hope's End",
+					"trait": "Hazardous",
+					"resources": 3,
+					"influence": 0,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Cormund",
+					"trait": "Hazardous",
+					"resources": 2,
+					"influence": 0,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Everra",
+					"trait": "Cultural",
+					"resources": 3,
+					"influence": 1,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Jeol Ir",
+					"trait": "Industrial",
+					"resources": 2,
+					"influence": 3,
+					"technology": "none"
+				},
+				{
+					"name": "Accoen",
+					"trait": "Industrial",
+					"resources": 2,
+					"influence": 3,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Kraag",
+					"trait": "Hazardous",
+					"resources": 2,
+					"influence": 1,
+					"technology": "none"
+				},
+				{
+					"name": "Siig",
+					"trait": "Hazardous",
+					"resources": 0,
+					"influence": 2,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Ba'kal",
+					"trait": "Industrial",
+					"resources": 3,
+					"influence": 2,
+					"technology": "none"
+				},
+				{
+					"name": "Alio Prima",
+					"trait": "Cultural",
+					"resources": 1,
+					"influence": 1,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Lisis",
+					"trait": "Industrial",
+					"resources": 2,
+					"influence": 2,
+					"technology": "none"
+				},
+				{
+					"name": "Velnor",
+					"trait": "Industrial",
+					"resources": 2,
+					"influence": 1,
+					"technology": "warfare"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Xanhact",
+					"trait": "Hazardous",
+					"resources": 0,
+					"influence": 1,
+					"technology": "none"
+				},
+				{
+					"name": "Cealdri",
+					"trait": "Cultural",
+					"resources": 0,
+					"influence": 2,
+					"technology": "cybernetic"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Vega Major",
+					"trait": "Cultural",
+					"resources": 2,
+					"influence": 1,
+					"technology": "none"
+				},
+				{
+					"name": "Vega Minor",
+					"trait": "Cultural",
+					"resources": 1,
+					"influence": 2,
+					"technology": "propulsion"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Ashtroth",
+					"trait": "Hazardous",
+					"resources": 2,
+					"influence": 0,
+					"technology": "none"
+				},
+				{
+					"name": "Loki",
+					"trait": "Cultural",
+					"resources": 1,
+					"influence": 2,
+					"technology": "none"
+				},
+				{
+					"name": "Abaddon",
+					"trait": "Cultural",
+					"resources": 1,
+					"influence": 0,
+					"technology": "none"
+				}
+			]
+		},
+		{
+			[
+				{
+					"name": "Rigel III",
+					"trait": "Industrial",
+					"resources": 1,
+					"influence": 1,
+					"technology": "biotic"
+				},
+				{
+					"name": "Rigel II",
+					"trait": "Industrial",
+					"resources": 1,
+					"influence": 2,
+					"technology": "none"
+				},
+				{
+					"name": "Rigel I",
+					"trait": "Hazardous",
+					"resources": 0,
+					"influence": 1,
+					"technology": "none"
+				}
+      ]
+    }
+  ]
+}
+  
