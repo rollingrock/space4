@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class HexGrid : MonoBehaviour {
@@ -6,13 +7,13 @@ public class HexGrid : MonoBehaviour {
 	public int width = 7;
 	public int height = 7;
 
-	public Color defaultColor = Color.white;
+	public Color defaultColor = Color.blue;
 	public Color homeColor = Color.green;
 
 	public HexCell cellPrefab;
 	public Text cellLabelPrefab;
 
-	HexCell[] cells;
+	List<HexCell> cells;
 
 	Canvas gridCanvas;
 	HexMesh hexMesh;
@@ -22,7 +23,7 @@ public class HexGrid : MonoBehaviour {
 		gridCanvas = GetComponentInChildren<Canvas>();
 		hexMesh = GetComponentInChildren<HexMesh>();
 
-		cells = new HexCell[height * width];
+		cells = new List<HexCell>();
 
 		//This centers the grid around central hex
         int xStart = (int)( width / 2 );
@@ -35,15 +36,28 @@ public class HexGrid : MonoBehaviour {
 		TextAsset jsonFile = Resources.Load<TextAsset>( "gameBoard_3p" );
         gameBoardData = JsonUtility.FromJson<GameBoardData>( jsonFile.text );
 
-		for (int z = -zStart, i = 0; z < zStop; z++) {
+		for (int z = -zStart; z < zStop; z++) {
 			for (int x = -xStart; x < xStop; x++) {
-				Vector3 pos = GetHexPosition( x, z);
-				cells[i] = CreateCell(pos);
-				Debug.Log( cells[ i ] );
-				cells[i].HexCoordinates( x, z );
-				SetCellLabel( cells[ i ] );
-				SetCellColor( cells[ i ] );
-				i++;
+                HexCell cell = Instantiate<HexCell>( cellPrefab );
+                cell.HexCoordinates( x, z );
+                foreach ( GameTile tile in gameBoardData.gameBoard ) {
+					if ( tile.coord == cell.GetCoordString() ) {
+						cell.position = GetHexPosition( x, z );
+						CreateCell( cell );
+						SetCellLabel( cell, tile.tile );
+						SetCellColor( cell );
+                        cells.Add(cell);
+                    }
+				}
+				/*
+				if ( cell.position == Vector3.zero ) {
+                    cell.position = GetHexPosition( x, z );
+                    CreateCell( cell );
+                    SetCellLabel( cell, cell.GetCoordString() );
+                    SetCellColor( cell );
+                    cells.Add( cell );
+                }
+				*/
 			}
 		}
 	}
@@ -60,19 +74,16 @@ public class HexGrid : MonoBehaviour {
 		return position;
     }
 
-	HexCell CreateCell( Vector3 position ) {
-		HexCell cell = Instantiate<HexCell>( cellPrefab );
+	void CreateCell( HexCell cell ) {
 		cell.transform.SetParent( transform, false );
-		cell.transform.localPosition = position;
-		cell.position = position;
-		return cell;
+		cell.transform.localPosition = cell.position;
 	}
 
-	void SetCellLabel(HexCell cell) {
+	void SetCellLabel(HexCell cell, string lblText) {
 		Text label = Instantiate<Text>(cellLabelPrefab);
 		label.rectTransform.SetParent(gridCanvas.transform, false);
 		label.rectTransform.anchoredPosition = new Vector2(cell.position.x, cell.position.z);
-		label.text = cell.x.ToString() + "\n" + cell.y.ToString() + "\n" + cell.z.ToString();
+		label.text = lblText;
 	}
 
 	void SetCellColor(HexCell cell) {
